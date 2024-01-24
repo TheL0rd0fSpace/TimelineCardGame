@@ -7,6 +7,7 @@ The cards are initially stored as a dictionary in MASTER_DICT_OF_CARDS (which is
     until createDeckOfCards creates an EventCard object for each of them and adds them to the deckOfCards list.
 The timeline is both the variable name and the class name for the unique timeline object.
 The player objects are created on-the-fly by the getPlayerName function and stored in the playerList variable.
+
 Possible feature creep:
     Creating a "discard pile" variable, and using it to create a new deck when the deck runs out of cards.
         This would require a rework of the currently simple discardACard method.
